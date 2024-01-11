@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>5BSY</title>
+</head>
+<body>
+    <div class="Heroin">
+        <h2>Калькулятор S трикутника</h2>
+        <label for="sideA">Сторона A:</label>
+        <input type="number" id="sideA" placeholder="Введіть сторону A">
+
+        <label for="sideB">Сторона B:</label>
+        <input type="number" id="sideB" placeholder="Введіть сторону B">
+
+        <label for="sideC">Сторона C:</label>
+        <input type="number" id="sideC" placeholder="Введіть сторону C">
+
+        <button onclick="calculateArea()">Розрахувати</button>
+
+        <p id="result">S трикутника: </p>
+    </div>
+
+    <div class="two-sides-and-angle">
+        <h2>Калькулятор S трикутника за сторонами і кутом</h2>
+        <label for="sideA">Сторона A:</label>
+        <input type="number" id="sideA" placeholder="Введіть сторону A">
+
+        <label for="sideB">Сторона B:</label>
+        <input type="number" id="sideB" placeholder="Введіть сторону B">
+
+        <label for="angle">Кут між сторонами (в градусах):</label>
+        <input type="number" id="angle" placeholder="Введіть кут">
+
+        <button onclick="calculateArea1()">Розрахувати</button>
+
+        <p id="result-1">S трикутника: </p>
+    </div>
+
+    <div class="height-side">
+        <h2>Калькулятор S трикутника за стороною і висотою</h2>
+        <label for="side">Сторона трикутника:</label>
+        <input type="number" id="side" placeholder="Введіть сторону трикутника">
+
+        <label for="height">Висота трикутника:</label>
+        <input type="number" id="height" placeholder="Введіть висоту трикутника">
+
+        <button onclick="calculateArea2()">Розрахувати</button>
+
+        <p id="result-2">S трикутника: </p>
+    </div>
+
+    <div class="f-num">
+        <h2>Калькулятор чисел Фібоначчі</h2>
+        <label for="fibonacciIndex">Порядковий номер:</label>
+        <input type="number" id="fibonacciIndex" placeholder="Введіть порядковий номер">
+
+        <button onclick="calculateFibonacci()">Вивести число</button>
+
+        <p id="result-4">Число Фібоначчі: </p>
+    </div>
+
+    <div class="f-num-check">
+        <h2>Перевірка числа в послідовності Фібоначчі</h2>
+        <label for="fibonacciNumber">Число:</label>
+        <input type="number" id="fibonacciNumber" placeholder="Введіть число">
+    
+        <button onclick="checkFibonacci()">Перевірити</button>
+    
+        <p id="result-5">Результат перевірки: </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
